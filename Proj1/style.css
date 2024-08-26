@@ -1,0 +1,43 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Outfit';
+    text-align: center;
+
+}
+html,body{
+    height: 100%;
+}
+#main-container{
+    height: 100%;
+    width: 100%;
+    background-color: #D5E1EF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 10px 20px 0 rgb(0 0 0 / 15%);
+   
+}
+#main-cart{
+    height: 500px;
+    width: 323px;
+    background-color: #FFFFFF;
+    border-radius: 18px;
+    padding: 1rem;
+   
+}
+#main-cart h2{
+    padding-top: 20px;
+    font-weight: 650;
+    font-size: 23px;
+    padding: 6px;
+    color: #202B48
+}
+
+#main-cart p{
+    padding-top: 8px;
+    font-size: 18px;
+    color: hsl(220, 15%, 55%);
+    
+}
